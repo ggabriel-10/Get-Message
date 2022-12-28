@@ -59,9 +59,14 @@ body {
 }
 
 @media(max-width: 800px){
+
+    body{
+        padding-top: 15vh;
+    }
     .container{
         width: 90%;
         height: 70vh;
+        margin-bottom: 10rem;
     }
     #mensagem-camp{
         width: 20em;
