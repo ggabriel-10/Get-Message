@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: rgb(238, 55, 55);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    padding-top: 20vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#mensagem-camp{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25em;
+    height: 12em;
+    border: 1px solid rgb(255, 0, 0);
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+.title{
+    color: aliceblue;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 60%;
+    height: 60vh;
+    background-color: rgb(235, 0, 0);
+    position: relative;
+    border-radius: 30px;
+}
+.p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(121, 121, 121);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+@media(max-width: 800px){
+    .container{
+        width: 90%;
+        height: 70vh;
+    }
+    #mensagem-camp{
+        width: 20em;
+        height: 15em;
+    }
+    .p{
+        font-size: 20px;
+    }
+    .button{
+        width: 20vh;
+        height: 40px;
+        font-size: 15px;
+    }
+}
