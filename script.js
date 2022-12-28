@@ -5,9 +5,9 @@ async function getMensage(){
         const mensagem = api.data.slip.advice
         let response = document.querySelector("#mensagem-camp")
         response.innerHTML = ""
-        let addElement = document.createElement("p")
-        addElement.innerHTML = mensagem
-        response.appendChild(teste)
+        let addElemente = document.createElement("p")
+        addElemente.innerHTML = mensagem
+        response.appendChild(addElemente)
     }catch(error){
         console.log(error)
     }
