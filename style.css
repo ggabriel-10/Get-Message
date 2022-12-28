@@ -61,7 +61,7 @@ body {
 @media(max-width: 800px){
 
     body{
-        padding-top: 12vh;
+        padding-top: 10vh;
     }
     .container{
         width: 90%;
